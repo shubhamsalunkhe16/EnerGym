@@ -1,0 +1,152 @@
+*{
+	box-sizing:border-box;
+	/*border:1px solid red;*/
+}
+
+.brand{
+	display:flex;
+	
+	margin:10px auto 10px 10px ;
+	
+}
+
+.brand h2{
+	font-family: 'Playfair Display', serif;
+	font-weight:900;
+	font-size:30px;
+	margin:9px 25px;
+	color:white
+}
+
+.nav-links{
+	display:flex;
+	list-style:none;
+	
+}
+
+.nav-links li{
+	display:inline-block;
+	text-align:center;
+	border-radius:5px;
+
+	
+	
+}
+
+.nav-links li a{
+	display:inline-block;
+	 font-family: 'Playfair Display', serif;
+	font-weight: 800;
+	text-decoration:none;
+	padding: 5px 5px;
+	text-align:center;
+	transition: all 0.3s;	
+	color:white;
+}
+
+
+.nav-links li a:hover{
+	background-color:#f8931f;
+	border-radius:5px;
+	
+		
+}
+
+.nav-bar{
+	margin:10px 10px 0px 0px;
+}
+
+
+.box{
+	display:flex;
+	align-items:flex-start;	
+	background-color:rgba(4,9,21,0.4);
+	
+	
+}
+
+.cover-page{
+	background-image:linear-gradient(rgba(4,9,21,0.8),rgba(4,9,30,0.6)), url(../photos/aboutcover.jpg);
+	height:350px;
+	background-size:cover;
+	background-position:center;	
+	box-shadow:5px 5px 8px grey;
+	margin-bottom:35px;
+}
+
+
+.banner{
+	color:white;
+	text-align:center;
+	padding:110px 60px;
+}
+
+.banner h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size:40px;
+	font-style: italic;
+	color:white;
+	margin-top:-10px;
+}
+
+
+.section-heading{
+	font-family: 'Playfair Display', serif;
+	font-weight:900;
+	font-size:30px;
+	margin-top:30px;
+	text-align:center;
+		
+}
+
+.section-content{
+	font-family: 'Chivo', sans-serif;
+	font-weight: 300;
+	font-size:20px;
+	text-align:justify;
+	padding:10px 20px;
+	margin-top:10px;
+}
+
+.about_img img{
+		margin-top:12px;
+		box-shadow:5px 5px 8px grey;
+		border:2px solid grey;
+		border-radius:5px;
+		
+}
+
+
+
+
+
+.grid_6 h3{
+	font-family: 'Playfair Display', serif;
+	font-weight:700;
+	font-size:20px;
+	margin-top:00px;
+	text-align:center;
+	margin:auto;
+	text-decoration:underline;
+}
+
+.footer{
+	background-image:linear-gradient(rgba(4,9,21,1),rgba(255,235,215,0.55)), url(../photos/footer1.jpg);
+	height:165px;
+	background-size:cover;
+	background-position:center;	
+	box-shadow:5px 5px 8px grey;
+}
+
+.footer-content{
+	padding-top:25px;
+}
+
+.icons a{
+	padding:0px 10px;
+}
+
+.icons {
+	margin:-13px 0px 0px 345px;
+}
